@@ -144,6 +144,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml
 
 # Platform
+BOARD_USES_QCOM_HARDWARE := true
 TARGET_BOARD_PLATFORM := trinket
 TRINKET := trinket
 
